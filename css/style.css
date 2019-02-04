@@ -4,18 +4,56 @@ body {
   font-size: 10px;
 }
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 .container {
   margin: 0 auto;
   width: 420px;
+  background-color: #d3d3d3;
+  color: black;
 }
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding:10px 0px 30px 15px;
   position: fixed;
   width: 420px;
+  background-color: black;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  font-family: arial;
+  line-height: 1.25;
+  width: 420px;
+  box-sizing: border-box;
+}
+
+.location {
+  border-bottom: .8px solid black;
+  padding: 3%;
+  margin-bottom: -10px;
+  width: 420px;
+  box-sizing: border-box;
+}
+
+.content {
+  box-sizing: border-box;
+  padding:3%;
+  width: 93%;
+  float: left;
+  background-color: #d3d3d3
+}
+
+.arrow {
+  box-sizing: border-box;
+  padding: 3%
+
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.3em;
 }
