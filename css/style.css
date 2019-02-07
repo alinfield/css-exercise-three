@@ -39,9 +39,14 @@ nav {
   box-sizing: border-box;
 }
 
+.location:hover, .content:hover, .arrow:hover {
+  background-color: blue;
+  color: white;
+}
+
 .content {
   box-sizing: border-box;
-  padding:3%;
+  padding:2%;
   width: 93%;
   float: left;
   background-color: #d3d3d3
